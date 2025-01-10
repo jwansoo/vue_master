@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <h1>hello world</h1>
-  </div>
+  <main><router-view /></main>
 </template>
+<script setup lang="ts">
+import { supabase } from '@/lib/supabaseClient'
 
-<script setup>
+console.log(supabase)
 
 </script>
 
