@@ -7,7 +7,7 @@ tasks (
   name text not null,
   status current_status default 'in-progress' not null,
   description text not null,
-  due_data date default null,
+  due_date date default null,
   project_id bigint references projects (id) default null,
   collaborators text array default array[]::varchar[] not null
 );

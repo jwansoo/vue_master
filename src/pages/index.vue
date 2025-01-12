@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-
+usePageStore().pageData.title='HomePage'
 </script>
 
 <style lang="scss" scoped>

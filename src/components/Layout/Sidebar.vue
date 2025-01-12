@@ -1,7 +1,5 @@
 // eslint-disable-next-line vue/multi-word-component-names
 <script setup lang="ts">
-import Button from '../ui/button/Button.vue';
-import SidebarLinkis from './SidebarLinkis.vue';
 
 const links=[
   {
